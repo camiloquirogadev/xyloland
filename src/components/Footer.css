@@ -1,0 +1,30 @@
+/* Footer.css */
+
+.footer {
+    background-color: var(--black); /* Negro */
+    color: var(--white);  /* Blanco */
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer .socials {
+    margin-top: 20px;
+  }
+  
+  .footer .socials a {
+    color: var(--white);
+    margin: 0 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .socials a:hover {
+    color: var(--blue); /* Azul */
+  }
+  

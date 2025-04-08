@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Services.css'; 
 
 // Componente individual de cada servicio
 function Service({ title, description }) {

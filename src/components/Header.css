@@ -1,0 +1,38 @@
+/* Header.css */
+
+.header {
+    background: linear-gradient(45deg, var(--black), var(--teal)); /* Azul oscuro y verde teal */
+    color: var(--white);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  .cta-btn {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #0056b3;
+  }
+  
