@@ -82,7 +82,7 @@ Este proyecto está bajo la **Licencia MIT**.
 
 ### 📬 Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en **contactarme** a través de mi correo electrónico: **camiloquirogadev@gmail.com**
+Si tienes alguna pregunta o sugerencia, no dudes en **contactarme** a través de mi correo electrónico: **quirogacamilodev@gmail.com**
 
 ---
 
