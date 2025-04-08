@@ -1,34 +1,29 @@
 /* Hero.css */
 
 .hero {
-    background: url('/public/images/Hero-image.jpg') center/cover no-repeat;
+    background: url('/public/images/Hero-image.jpg') center/cover no-repeat; /* Imagen de fondo */
     color: var(--white);
     text-align: center;
     padding: 120px 20px;
+    background-size: cover;
   }
   
   .hero h1 {
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 700;
     margin-bottom: 20px;
   }
   
   .hero p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 40px;
   }
   
   .hero .cta-btn {
-    padding: 15px 30px;
-    font-size: 1.2em;
-    background-color: var(--blue);
+    padding: 15px 40px;
+    font-size: 1.3em;
+    background-color: var(--teal);
     border-radius: 5px;
     border: none;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-  }
-  
-  .hero .cta-btn:hover {
-    transform: scale(1.1);
   }
   

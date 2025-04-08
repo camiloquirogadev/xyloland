@@ -1,9 +1,6 @@
-/* App.css */
-
 /* Variables CSS para la paleta de colores */
 :root {
-  --black: #000000; /* Negro */
-  --blue: #007BFF; /* Azul */
+  --blue-dark: #0A1D29; /* Azul oscuro */
   --teal: #3A6F91; /* Verde Teal */
   --white: #FFFFFF; /* Blanco */
   --gray-light: #F1F1F1; /* Gris claro */
@@ -15,8 +12,35 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--gray-light); /* Gris claro de fondo */
-  color: var(--black); /* Texto principal negro */
+  color: var(--blue-dark); /* Texto principal azul oscuro */
 }
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Botones CTA */
+.cta-btn {
+  background-color: var(--teal); /* Verde Teal */
+  color: var(--white);
+  padding: 12px 30px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #2a5b72; /* Azul más oscuro */
+  transform: scale(1.05);
+}
+
+
 
 /* Media Queries para Responsividad */
 @media (max-width: 768px) {

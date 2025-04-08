@@ -1,8 +1,8 @@
 /* Footer.css */
 
 .footer {
-    background-color: var(--black); /* Negro */
-    color: var(--white);  /* Blanco */
+    background-color: var(--blue-dark);
+    color: var(--white);
     text-align: center;
     padding: 20px;
     font-size: 1.1em;
@@ -25,6 +25,6 @@
   }
   
   .footer .socials a:hover {
-    color: var(--blue); /* Azul */
+    color: var(--teal); /* Verde Teal para hover */
   }
   
