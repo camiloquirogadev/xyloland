@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# XyloLand - Digital Marketing Solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**XyloLand** es una landing page interactiva diseñada para ofrecer soluciones innovadoras de marketing digital. Este proyecto está hecho con **React** y **CSS** para proporcionar una experiencia moderna y profesional.
 
-## Available Scripts
+## 📝 Descripción
 
-In the project directory, you can run:
+XyloLand es una plataforma que ofrece servicios de automatización de marketing digital, análisis de datos, y generación de leads. Este proyecto tiene como objetivo demostrar cómo una landing page de marketing digital puede integrarse con soluciones de vanguardia.
 
-### `npm start`
+## ⚙️ Tecnologías Usadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario interactivas.
+- **CSS**: Estilos modulares con variables CSS para manejar la paleta de colores y la responsividad.
+- **HTML5**: Estructura semántica y accesible para la web.
+- **ESLint**: Herramienta de linting para mantener la calidad y estándares de código.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Funcionalidades
 
-### `npm test`
+- **Sección Hero**: Presenta la solución de marketing digital con un fondo visual atractivo.
+- **Servicios**: Presenta tres servicios principales de la empresa con imágenes e información relevante.
+- **Testimonios**: Muestra testimonios de clientes satisfechos.
+- **Formulario de Contacto**: Permite a los usuarios enviar un mensaje para consultas o preguntas.
+- **Footer**: Contiene enlaces a redes sociales y detalles de contacto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Instalación
 
-### `npm run build`
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona el repositorio:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    git clone https://github.com/camiloquirogadev/xyloland.git
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Entra en el directorio del proyecto:
 
-### `npm run eject`
+    ```bash
+    cd xyloland
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Instala las dependencias:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Inicia el servidor de desarrollo:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    npm start
+    ```
 
-## Learn More
+Esto abrirá la aplicación en **http://localhost:3000**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🌐 Despliegue
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Puedes ver la landing page en vivo haciendo clic en el siguiente enlace (si has desplegado el proyecto):
 
-### Code Splitting
+[Enlace de la página en vivo](https://your-deployed-page.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎨 Paleta de Colores
 
-### Analyzing the Bundle Size
+- **Azul Oscuro (#0A1D29)**: Usado para fondos y elementos importantes.
+- **Verde Teal (#3A6F91)**: Utilizado en botones y acentos.
+- **Blanco (#FFFFFF)**: Para el texto y algunos fondos de contenido.
+- **Gris Claro (#F1F1F1)**: Para fondos secundarios y secciones.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📱 Responsividad
 
-### Making a Progressive Web App
+Este proyecto está diseñado para ser **100% responsivo**. Funciona bien en dispositivos móviles, tabletas y escritorios.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔧 Funcionalidades Futuras
 
-### Advanced Configuration
+- Integración con una API para enviar mensajes del formulario de contacto.
+- Optimización para el rendimiento de imágenes y elementos visuales.
+- Agregar más interactividad con animaciones suaves para una experiencia de usuario más fluida.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 Licencia
 
-### Deployment
+Este proyecto está bajo la **Licencia MIT**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+### 📬 Contacto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Si tienes alguna pregunta o sugerencia, no dudes en **contactarme** a través de mi correo electrónico: **camiloquirogadev@gmail.com**
+
+---
+
+**¡Gracias por visitar XyloLand!**
