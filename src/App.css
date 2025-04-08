@@ -1,5 +1,6 @@
 /* App.css */
-/* Colores principales */
+
+/* Variables CSS para la paleta de colores */
 :root {
   --black: #000000; /* Negro */
   --blue: #007BFF; /* Azul */
@@ -19,7 +20,7 @@ body {
 
 /* Header */
 .header {
-  background: linear-gradient(45deg, var(--black), var(--teal)); /* Negro y verde teal */
+  background: linear-gradient(45deg, var(--black), var(--teal)); /* Azul oscuro y verde teal */
   color: var(--white);
   padding: 20px 40px;
   display: flex;
@@ -59,7 +60,7 @@ nav ul li {
 
 /* Hero Section */
 .hero {
-  background: url('Hero-image.jpg') center/cover no-repeat;
+  background: url('public/images/Hero-image.jpg') center/cover no-repeat;
   color: var(--white);
   text-align: center;
   padding: 120px 20px;
@@ -196,6 +197,53 @@ nav ul li {
   text-align: center;
   padding: 20px;
 }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-btn {
+    padding: 12px 25px;
+    font-size: 1.1em;
+  }
+
+  .hero {
+    padding: 100px 20px;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 15px 30px;
+  }
+
+  .hero h1 {
+    font-size: 2.5em;
+  }
+
+  .services {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
 
 
 /* Animación para los servicios */
